@@ -2,8 +2,8 @@
 Console.WriteLine("Hello, World!");
 
 var calculator = new Calculator();
-int result = calculator.sum(1, 2);
-Console.WriteLine(result);
+int results = calculator.sum(1, 2);
+Console.WriteLine(results+"Fue el resultado");
 
 public class Calculator
 {
